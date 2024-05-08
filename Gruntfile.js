@@ -9,7 +9,7 @@ module.exports = function ( grunt ) {
 				cache: true
 			},
 			all: [
-				'**/*.{js,json}',
+				'**/*.js',
 				'!Gruntfile.js',
 				'!modules/gadget-skip.js',
 				'!tests/coverage/**',
